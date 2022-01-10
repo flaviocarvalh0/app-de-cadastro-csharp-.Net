@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\flavi\\Desktop\\app de cadastro\\Produtos\\Produtos.csproj": {}
+    "C:\\Users\\flavi\\Desktop\\app-de-cadastro-csharp-.Net\\Produtos\\Produtos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\flavi\\Desktop\\app de cadastro\\Produtos\\Produtos.csproj": {
+    "C:\\Users\\flavi\\Desktop\\app-de-cadastro-csharp-.Net\\Produtos\\Produtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flavi\\Desktop\\app de cadastro\\Produtos\\Produtos.csproj",
+        "projectUniqueName": "C:\\Users\\flavi\\Desktop\\app-de-cadastro-csharp-.Net\\Produtos\\Produtos.csproj",
         "projectName": "Produtos",
-        "projectPath": "C:\\Users\\flavi\\Desktop\\app de cadastro\\Produtos\\Produtos.csproj",
+        "projectPath": "C:\\Users\\flavi\\Desktop\\app-de-cadastro-csharp-.Net\\Produtos\\Produtos.csproj",
         "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flavi\\Desktop\\app de cadastro\\Produtos\\obj\\",
+        "outputPath": "C:\\Users\\flavi\\Desktop\\app-de-cadastro-csharp-.Net\\Produtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

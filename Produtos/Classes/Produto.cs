@@ -28,10 +28,10 @@ namespace Produtos
         {
 
             string retorno = "";
-            retorno += "Categoria" + this.Categoria + Environment.NewLine;
-            retorno += "Nome" + this.Nome + Environment.NewLine;
-            retorno += "Preço" + this.Preco + Environment.NewLine;
-            retorno += "Descrição" + this.Descricao + Environment.NewLine;
+            retorno += "Categoria: " + this.Categoria + Environment.NewLine;
+            retorno += "Nome: " + this.Nome + Environment.NewLine;
+            retorno += "Preço: " + this.Preco + Environment.NewLine;
+            retorno += "Descrição: " + this.Descricao + Environment.NewLine;
             retorno += "Excluido" + this.Excluido + Environment.NewLine;
 
             return retorno;
@@ -45,6 +45,11 @@ namespace Produtos
         public int retornaId()
         {
             return this.Id;
+        }
+
+        public bool retornaExcluido()
+        {
+            return this.Excluido;
         }
 
         public void Excluir()

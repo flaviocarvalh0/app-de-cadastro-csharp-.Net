@@ -1,5 +1,5 @@
 using System;
-using Produtos.Enum;
+using Produtos;
 
 namespace Produtos
 {
@@ -32,6 +32,7 @@ namespace Produtos
             retorno += "Nome" + this.Nome + Environment.NewLine;
             retorno += "Preço" + this.Preco + Environment.NewLine;
             retorno += "Descrição" + this.Descricao + Environment.NewLine;
+            retorno += "Excluido" + this.Excluido + Environment.NewLine;
 
             return retorno;
         }

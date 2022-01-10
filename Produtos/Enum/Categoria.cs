@@ -1,4 +1,6 @@
-namespace Produtos.Enum
+using System;
+
+namespace Produtos
 {
     public enum Categoria
     {

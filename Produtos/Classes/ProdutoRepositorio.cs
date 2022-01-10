@@ -10,34 +10,34 @@ namespace Produtos
     {
 
         private List<Produto> listaProduto = new List<Produto>();
-        public void Atualizar(int id, Produto entidade)
+        public void Atualizar(int id, Produto objeto)
         {
-            throw new NotImplementedException();
+            listaProduto[id] = objeto;
         }
 
         public void Exclui(int id)
         {
-            throw new NotImplementedException();
+            listaProduto[id].Excluir();
         }
 
-        public void Insere(Produto entidade)
+        public void Insere(Produto objeto)
         {
-            throw new NotImplementedException();
+            listaProduto.Add(objeto);
         }
 
         public List<Produto> Lista()
         {
-            throw new NotImplementedException();
+            return listaProduto;
         }
 
         public int ProximoId()
         {
-            throw new NotImplementedException();
+            return listaProduto.Count;
         }
 
         public Produto RetonaPorId(int id)
         {
-            throw new NotImplementedException();
+            return listaProduto[id];
         }
     }
 }
